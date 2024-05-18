@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+    <link rel="icon" href="./assets/images/62823-laptop-computer-icon.png" />
+		<title>Gregory Lee</title>
+    <meta name="description" content="Gregory's landing page">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+
+		<script defer src="./js/script.js"></script>
+	</head>
+	<body style="background-color: #e5f6fa">
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="./index.html">
+        <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+        <span class="nav-title">Gregory Lee</span>
+         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+         <a class="button" href="https://www.linkedin.com/in/gregoryleexs">
+          <span class="button-text">LinkedIn</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PORTFOLIO HEADER -->
+      <div id="portfolio-header">
+        <div id="portfolio-header-image-container">
+          <!-- 
+            TODO
+
+            - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
+            - Change the number to point to your Unemployable & replace the OpenSea link with your own
+            - If you aren't using an Unemployable as your image, remove the entire "a" element
+          -->
+          <img src="./assets/images/1700405314049.jpeg" class="portfolio-header-image">
+          <a class="no-underline" target="_blank" href="./assets/images/1700405314049.jpeg">
+            <span class="image-caption">That's me!</span>
+          </a>
+        </div>
+
+          <!-- 
+            TODO
+
+            - Change the main-title to whatver you want
+            - Change the body-text after that to a quick introduction to what you do
+            - Edit the button text if you feel like it. It will link to the projects section below.
+          -->
+        <div id="portfolio-header-text-container">
+            <div class="header-text">
+              <span class="main-title">Hey, I'm Gregory Lee.</span>
+            </div>
+            <div class="body-text">
+              <div class="body-text">"THIS SITE IS A WORK IN PROGRESS!"</div>
+              <div class="body-text">I'm a Year 3 student in Ngee Ann Polytechnic Electronic & Computer Engineering. I am an aspiring System Administrator who is passionate about anything relating to computers and the cloud. I am also interested in electronics and astronomy.</div>
+            </div>
+            <a class="button" id="my-work-link">
+              <span class="button-text">Check out my projects</span> 
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+        </div>
+      </div>
+
+      <!-- ABOUT SECTION -->
+      <!-- 
+        TODO
+
+        - Change the subheader-text to whatever header you want
+        - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
+      -->
+      <div id="about-section">
+        <span class="subheader-text">My Background / About Me</span>
+        <div class="about-section-content">
+          <div class="body-text">I am currently a Year 3 student studying Electronic & Computer Engineering in Ngee Ann Polytechnic.</div>
+          <div class="body-text">I am an aspiring System Administrator who is interested in anything related to computers and the cloud. I am proficient in and passionate about Linux-based operating systems, and have experience with Amazon Web Services and Cisco networking.</div>
+          <div class="body-text">I am interested in consumer gadgets, often reading news about the latest phones, tablets, computers and IT accessories. During my free time, I enjoy tinkering with electronic components and Arduinos. I have experience with Printed Circuit Board (PCB) design, embedded microcontroller systems and register-level Arduino programming. I am open to roles in the Electronics and Semiconductor industries too!</div>
+          <div class="body-text">Furthermore, I have been fascinated with astronomy since I was eight, especially when it comes to galaxies and outer space. My role as president of Ngee Ann Poly Astronomy Club has allowed me to share my interests with my peers and the community, for example through working with partners like National Library Board (NLB) and Singapore Academy of Young Engineers & Scientists (SAYES) to organise astronomy-related outreach events</div>
+      </div>
+
+      <div id="spacing">
+
+      </div>
+
+      <div id="experience-section">
+
+        <span class="subheader-text">My Experience</span>
+        <div class="experience-container">
+
+
+          <div class="experience-card">
+            <img src="./assets/images/logos/dso_national_laboratories_logo.jpeg" class="experience-image">
+            <div class="experience-card-text-container">
+              <div class="subheader-text experience-title">DSO National Laboratories</div>
+              <div class="body-text experience-card-text">PCB Design Automation Intern, Mar 2024 - present</div>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <img src="./assets/images/logos/sg-alliance.jpeg" class="experience-image">
+            <div class="experience-card-text-container">
+              <div class="subheader-text experience-title">SG Alliance Pte. Ltd.</div>
+              <div class="body-text experience-card-text">Admin, Business Support, Jan - Mar 2022</div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <div id="spacing">
+
+      </div>
+
+      <div id="edu-section">
+        <span class="subheader-text">Education</span>
+        <div class="edu-container">
+          <div class="edu-card">
+            <img src="./assets/images/logos/ngee_ann_polytechnic_logo.jpeg" class="edu-image">
+            <div class="edu-card-text-container">
+              <div class="subheader-text edu-title">Ngee Ann Polytechnic</div>
+              <div class="body-text edu-card-text">Diploma in Electronic & Computer Engineering, 2022-2025</div>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <img src="./assets/images/logos/bpghslogo.jpeg" class="edu-image">
+            <div class="edu-card-text-container">
+              <div class="subheader-text edu-title">Bukit Panjang Govt. High School</div>
+              <div class="body-text edu-card-text">2018-2021</div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+      <div id="spacing">
+
+      </div>
+
+      <div id="certification-section">
+        <span class="subheader-text">Certifications</span>
+        <div class="certification-container">
+          <div class="certification-card">
+            <img src="./assets/images/logos/amazon_web_services_logo.jpeg" class="certification-image">
+            <div class="certification-card-text-container">
+              <div class="subheader-text certification-title">AWS Certified Cloud Practitioner</div>
+              <div class="body-text certification-card-text">Valid until March 2027</div>
+            </div>
+          </div>
+
+  
+
+
+
+
+        </div>
+
+
+      <div id="spacing">
+
+      </div>
+
+      <div id="leadership-section">
+        <span class="subheader-text">Leadership</span>
+        <div class="leadership-container">
+          <div class="leadership-card">
+            <img src="./assets/images/logos/sayes.jpeg" class="leadership-image">
+            <div class="leadership-card-text-container">
+              <div class="subheader-text leadership-title">Singapore Academy</div>
+              <div class="body-text leadership-card-text">Council Aide, 2024 - present</div>
+            </div>
+          </div>
+          <div class="leadership-card">
+            <img src="./assets/images/logos/npastro.png" class="leadership-image">
+            <div class="leadership-card-text-container">
+              <div class="subheader-text leadership-title">NP Astronomy Club</div>
+              <div class="body-text leadership-card-text">President, 2023 - 2024</div>
+            </div>
+          </div>
+        </div>
+
+        
+
+      </div>
+
+      <div id="spacing">
+
+      </div>
+
+      
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+        <image src="./assets/icons/instagram.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+        <image src="./assets/icons/twitter.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
+        <image src="./assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
