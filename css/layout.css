@@ -130,7 +130,7 @@ body {
     /* Experience Cards */
 
     .experience-card {
-      max-width: calc((100% - 32px) / 3);
+      max-height: calc((100% - 32px) / 3);
       display: flex;
       flex-direction: row;
       gap: 16px;
@@ -167,7 +167,7 @@ body {
     /* Education Cards */
     
     .edu-card {
-      max-width: calc((100% - 32px) / 3);
+      max-height: calc((100% - 32px) / 3);
       display: flex;
       flex-direction: row;
       gap: 16px;
@@ -207,7 +207,7 @@ body {
     /* Leadership Cards */
         
         .leadership-card {
-          max-width: calc((100% - 32px) / 3);
+          max-height: calc((100% - 32px) / 3);
           display: flex;
           flex-direction: row;
           gap: 16px;
@@ -242,7 +242,7 @@ flex-wrap: wrap;
     /* Certification Cards */
                 
         .certification-card {
-        max-width: calc((100% - 32px) / 3);
+        max-height: calc((100% - 32px) / 3);
         display: flex;
         flex-direction: row;
         gap: 16px;
