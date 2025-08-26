@@ -131,16 +131,18 @@ body {
   display: flex;
   gap: 34px 16px;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 
     /* Experience Cards */
 
     .experience-card {
-      max-height: calc((100% - 32px) / 3);
-      max-width: 400px;
-      display: flex;
-      flex-direction: row;
-      gap: 16px;
+    flex: 1 1 300px;  /* lets them shrink/grow nicely, min 300px wide */
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center; /* keeps image + text vertically aligned */
     }
 
     .experience-card-text-container {
@@ -169,16 +171,18 @@ body {
   display: flex;
   gap: 34px 16px;
   flex-wrap: wrap;
+  align-items: stretch;
 }
     
     /* Education Cards */
     
     .edu-card {
-      max-height: calc((100% - 32px) / 3);
+      flex: 1 1 300px;  /* lets them shrink/grow nicely, min 300px wide */
       max-width: 400px;
       display: flex;
       flex-direction: row;
       gap: 16px;
+      align-items: center; /* keeps image + text vertically aligned */
     }
     
     .edu-card-text-container {
@@ -210,16 +214,18 @@ body {
   display: flex;
   gap: 34px 16px;
   flex-wrap: wrap;
+  align-items: stretch;
 }
         
     /* Leadership Cards */
         
         .leadership-card {
-          max-height: calc((100% - 32px) / 3);
+          flex: 1 1 300px;  /* lets them shrink/grow nicely, min 300px wide */
           max-width: 400px;
           display: flex;
           flex-direction: row;
           gap: 16px;
+          align-items: center; /* keeps image + text vertically aligned */
         }
         
         .leadership-card-text-container {
@@ -243,19 +249,21 @@ gap: 16px;
 }
 
 .certification-container {
-display: flex;
-gap: 34px 16px;
-flex-wrap: wrap;
+  display: flex;
+  gap: 34px 16px;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
                 
     /* Certification Cards */
                 
         .certification-card {
-        max-height: calc((100% - 32px) / 3);
-        max-width: 400px;
-        display: flex;
-        flex-direction: row;
-        gap: 16px;
+          flex: 1 1 300px;  /* lets them shrink/grow nicely, min 300px wide */
+          max-width: 400px;
+          display: flex;
+          flex-direction: row;
+          gap: 16px;
+          align-items: center; /* keeps image + text vertically aligned */
       }
                 
       .certification-card-text-container {
